@@ -3,9 +3,15 @@
   border: none
   border-radius: 2px
   text-transform: uppercase
+  &:hover
+    cursor: pointer
   &_primary
     background-color: $primary
     color: $ligt
+    box-shadow: 0px 5px 15px rgba($primary, 0.2)
+    &:hover
+      box-shadow: none
+      transition: 0.2s
   &_outline
     border: 1px solid $ligt
     background-color: transparent
